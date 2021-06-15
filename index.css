@@ -1,0 +1,567 @@
+/*レスポンシブ*/
+@media screen and (min-width: 767px) { /*ウィンドウ幅が767px以上の場合に適用*/
+}
+
+@media screen and (max-width: 767px) { /*ウィンドウ幅が最大767pxまでの場合に適用*/
+}
+
+@media screen and (max-width: 327px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+}
+
+body {
+    font-family:"ヒラギノ丸ゴ ProN W4", "メイリオ", ;
+    background-color: black;
+}
+
+img {
+    border-radius: 20px;
+}
+
+.rinshou {
+    margin-top: 5%;
+    font-weight: bold;
+}
+
+
+
+@media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxの場合に適用*/
+#main {
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 100%;
+}
+}
+
+#main {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+
+
+
+/*チラシ*/
+.seotext_01{
+font-weight: bold;
+background:linear-gradient(transparent 60%, #FFFF00 0%);
+}
+
+#main_visual {
+    position: relative;
+    margin: 5% 0;
+    padding-top: 100%;
+    background-color: #FFF0F5;
+}
+
+#main_visual img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height:100%;
+    width: 100%;
+    margin: auto;
+}
+
+@media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxの場合に適用*/
+#main_about h2  {
+    font-size: 16px;
+}
+}
+
+
+#main_about h2 {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+#main_about h3 {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+@media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxの場合に適用*/
+#main_about h3 {
+    text-align: left;
+    font-size: 16px;
+}
+}
+  
+h2 {
+  color: #505050;/*文字色*/
+  padding: 0.5em;/*文字周りの余白*/
+  line-height: 1.3;/*行高*/
+  background: #dbebf8;/*背景色*/
+  border-radius: 25px;/*左側の角を丸く*/
+  text-align: center;
+}
+
+h2:before {
+  content: '●';
+  color: white;
+  margin-right: 8px;
+}
+
+
+.container h3 {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    margin: 50px;
+    padding-top: 40px;
+}
+
+@media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxの場合に適用*/
+.container {
+    margin: 30px;
+    padding-top: 20px;
+}
+}
+
+
+/*こんな悩み*/
+@media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxの場合に適用*/
+.nayami {
+    font-size: 20px;
+    text-align:center;
+}
+}
+
+@media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxの場合に適用*/
+.saisei {
+    font-size: 24px;
+    text-align:center;
+}
+}
+
+.enn2 {
+    text-align: center;
+}
+
+.circle {
+color: #fff;
+  background-color:#bfa46f;
+  padding: 0;
+  margin: 15px;
+  width: 180px;
+  height: 180px;
+  line-height: 180px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 50%;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxの場合に適用*/
+.circle {
+color: #fff;
+  background-color:#bfa46f;
+  padding: 0;
+  margin: 14px;
+  width: 95px;
+  height: 95px;
+  line-height: 95px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 50%;
+  font-size: 20px;
+}
+}
+
+.circle1 {
+color: #fff;
+  background-color:#bfa46f;
+  padding: 0;
+  margin: 15px;
+  width: 180px;
+  height: 180px;
+  line-height: 180px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 50%;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxの場合に適用*/
+.circle1 {
+color: #fff;
+  background-color:#bfa46f;
+  padding: 0;
+  margin: 14px;
+  width: 95px;
+  height: 95px;
+  line-height: 95px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 50%;
+  font-size: 20px;
+}
+}
+
+.circle2 {
+color: #fff;
+  background-color:#bfa46f;
+  padding: 0;
+  margin: 15px;
+  width: 180px;
+  height: 180px;
+  line-height: 180px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 50%;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxの場合に適用*/
+.circle2 {
+color: #fff;
+  background-color:#bfa46f;
+  padding: 0;
+  margin: 14px;
+  width: 95px;
+  height: 95px;
+  line-height: 95px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 50%;
+  font-size: 20px;
+}
+}
+
+.circle3 {
+color: #fff;
+  background-color:#bfa46f;
+  padding: 0;
+  margin: 15px;
+  width: 180px;
+  height: 180px;
+  line-height: 180px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 50%;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxの場合に適用*/
+.circle3 {
+color: #fff;
+  background-color:#bfa46f;
+  padding: 0;
+  margin: 14px;
+  width: 95px;
+  height: 95px;
+  line-height: 95px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 50%;
+  font-size: 20px;
+}
+}
+
+/*肌の再生医療について*/
+.picture {
+    display:flex;
+    text-align: center;
+}
+.picture div{
+    text-align: center;
+}
+
+
+.picture img {
+    width: 85%;
+    height: 85%;
+}
+
+
+.font {
+    margin-top:15%;
+    text-align: center;
+}
+
+.picture1 {
+    display:flex;
+    text-align: center;
+}
+
+.picture1 img {
+    width: 90%;
+    height: 90%;
+}
+
+.font1 {
+    margin-top:7%;
+    text-align: center;
+}
+
+.coumoku {
+    text-align: center;
+}
+
+h1 {
+  background: #dfefff;
+  box-shadow: 0px 0px 0px 5px #dfefff;
+  border: dashed 2px white;
+  padding: 0.2em 0.5em;
+  text-align: center;
+}
+
+#number1 h3, #number2 h3 {
+  position: relative;
+  background: #dfefff;
+  box-shadow: 0px 0px 0px 5px #dfefff;
+  border: dashed 2px white;
+  padding: 0.2em 0.5em;
+  color: #454545;
+}
+
+#number1 h3:before, #number2 h3:before {
+  position: absolute;
+  content: '';
+  left: -7px;
+  top: -7px;
+  border-width: 0 0 15px 15px;
+  border-style: solid;
+  border-color: #fff #fff #a8d4ff;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+
+/*詳細のメニュー*/
+.menu-contents {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #00BCD4;
+    background: #e4fcff;/*背景色*/
+    border-top: solid 6px #1dc1d6;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.32);/*影*/
+}
+.menu-contents h3, ul {
+    margin: 0; 
+    padding: 0;
+}
+
+.menu-contents h3 {
+    text-align: center;
+}
+
+.menu-contents ul {
+    font-size: 30px;
+    color: black;
+}
+
+.menu-contents a{
+  padding: 0 10px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 50%, rgb(49, 170, 226) 50%);
+  background-position: 0 0;
+  background-size: 200% auto;
+  transition: .3s;
+}
+
+.menu-contents a:hover{
+  background-position: -100% 0;
+  color: #fff;
+}
+
+/*肌の仕組み*/
+
+.hadanosikumi_picture{
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+
+/*肌細胞ってどんな働きするの？*/
+.hadanohataraki_picture {
+    width: 100%;
+    height:100%;
+}
+
+
+/*肌の老化ってどうして起こるの？*/
+#hadanoroukanituite img {
+    width:100%;
+    text-align: center;
+}
+.hadanorouka_text {
+    text-align: center;
+}
+.hadanorouka_setumei{
+    text-align: center;
+}
+
+@media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxの場合に適用*/
+.hadanorouka_setumei{
+    text-align: left;
+}
+}
+
+
+/*なんで老化現象を改善できるの？*/
+.roukagennsyoukaizenn_picture{
+    text-align: center;
+    width: 100%;
+}
+
+/*老化速度の改善*/
+.roukagennsyou_text {
+    margin-bottom: 2%;
+    margin-top: 2%;
+    width: 100%;
+}
+
+
+/*どうして老化速度を遅らせることができるの*/
+.roukasokudo_picture {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.nanigatigau_picture {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.roukasokudokaizenn_text {
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+/*他の美容法と肌の再生医療はどこが違うの*/
+.hokatonotigai_text {
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+/*松本先生*/
+.doctor-info {
+    margin: 32px 50px 32px 50px;
+}
+
+@media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxの場合に適用*/
+.common_title h1 {
+  font-size: 30px;
+}
+}
+
+
+.text {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+@media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxの場合に適用*/
+.text{
+   padding-left: 0px;
+    padding-right: 0px;
+}
+.doctor-info {
+    margin: 32px 10px;
+}
+}
+
+.text h3 {
+    text-align: center;
+}
+
+.seotext_03 {
+    font-weight: bold;
+    background:linear-gradient(transparent 60%, #CCFFFF 0%);
+}
+
+@media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxの場合に適用*/
+.text h3 {
+  font-weight: bold;
+    background:linear-gradient(transparent 60%, #CCFFFF 0%);
+    font-size: 17px;
+}
+}
+
+.text h4 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.text h4 span {
+    font-size: 18px;
+}
+
+.text p {
+    padding: 10px;
+}
+
+.box10 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #5d627b;
+    background: white;
+    border-top: solid 5px #5d627b;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+
+.box10 p {
+    margin: 0; 
+    padding: 0;
+}
+
+.photo {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.doctor-info_picture {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+/* footer*/
+footer {
+    padding: 40px;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+footer p {
+    font-size: 30px;
+}
+
+@media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxの場合に適用*/
+.footer1 {
+  font-weight: bold;
+    background:linear-gradient(transparent 60%, #CCFFFF 0%);
+    font-size: 17px;
+}
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+   
+  
+  
+  
+
