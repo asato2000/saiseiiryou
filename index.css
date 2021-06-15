@@ -11,17 +11,31 @@
 body {
     font-family:"ヒラギノ丸ゴ ProN W4", "メイリオ", ;
     background-color: black;
+    padding-top: 100px;
 }
 
 img {
     border-radius: 20px;
 }
 
-.rinshou {
-    margin-top: 5%;
-    font-weight: bold;
+.nav-link a {
+    display: inline-block;
 }
 
+@media screen and (max-width: 1480px) {
+.nav-link {
+    font-size: 93%;
+    font-weight: bold;
+}
+}
+
+
+
+.shashinn {
+    width: 40%;
+    height: 40%;
+    padding-right: 10px;
+}
 
 
 @media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxの場合に適用*/
@@ -114,8 +128,16 @@ li {
 }
 
 .container {
-    margin: 50px;
-    padding-top: 40px;
+    margin: 70px;
+    padding-top: 100px;
+}
+
+.container h1{
+    margin: 30px;
+}
+
+.nayami {
+    margin: 30px;
 }
 
 @media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxの場合に適用*/
@@ -129,14 +151,14 @@ li {
 /*こんな悩み*/
 @media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxの場合に適用*/
 .nayami {
-    font-size: 20px;
+    font-size: 15px;
     text-align:center;
 }
 }
 
 @media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxの場合に適用*/
 .saisei {
-    font-size: 24px;
+    font-size: 20px;
     text-align:center;
 }
 }
